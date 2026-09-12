@@ -846,3 +846,36 @@ figcaption a {
     max-width: none;
   }
 }
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.profile-links a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.project-shortcuts {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+.project-shortcuts li {
+  border-top: 1px solid var(--border);
+  padding-block: 0.5rem;
+}
+.project-shortcuts a {
+  display: inline-block;
+  padding-block: 0.25rem;
+}
+.project-shortcuts span {
+  display: block;
+  font-size: 0.9rem;
+}
+.fieldwork-figure {
+  max-width: 480px;
+  margin-block: 1.5rem;
+}
